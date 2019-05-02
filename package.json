@@ -1,0 +1,24 @@
+{
+  "name": "Mangopear framework: core-css",
+  "version": "0.1.0.alpha",
+  "description": "The base level CSS/SASS for the framework.",
+  "author": "Andi North <andi@mangopear.co.uk>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangopear-framework/core-css"
+  },
+  "bugs": {
+    "url": "https://github.com/mangopear-framework/core-css/issues"
+  },
+  "homepage": "https://github.com/mangopear-framework/core-css#readme",
+  "keywords": [
+    "sass",
+    "scss",
+    "css"
+    "itcss",
+    "bem",
+    "bemit",
+    "oocss",
+  ]
+}
