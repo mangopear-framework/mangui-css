@@ -20,5 +20,12 @@
     "bem",
     "bemit",
     "oocss",
-  ]
+  ],
+  "main": "mangui.scss",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    
+  }
 }
