@@ -21,7 +21,7 @@
     "bemit",
     "oocss",
   ],
-  "main": "mangui.scss",
+  "main": "mangopear-framework.scss",
   "dependencies": {
 
   },
