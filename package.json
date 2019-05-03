@@ -15,11 +15,11 @@
   "keywords": [
     "sass",
     "scss",
-    "css"
+    "css",
     "itcss",
     "bem",
     "bemit",
-    "oocss",
+    "oocss"
   ],
   "main": "mangopear-framework.scss",
   "dependencies": {
