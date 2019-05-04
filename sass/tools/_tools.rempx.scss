@@ -70,7 +70,7 @@ $rem-base-font-size: $mangui-base-font-size--unitless !default;
  * 		[f]	Output valid CSS with both rem and px values.
  *
  * 		To use:
- *   	@include rempx(font-size, 16px);
+ *   	@include mf-rempx(font-size, 16px);
  */
 
 @mixin mf-rempx ($property, $values) {
