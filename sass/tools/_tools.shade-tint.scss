@@ -45,7 +45,7 @@
  * 		background: @include mangui-tint(#F00, 25%);
  */
 
-@function mangui-tint($colour, $percentage) {
+@function mf-tint($colour, $percentage) {
 	@return mix($colour, white, (100-$percentage));
 }
 
@@ -64,6 +64,6 @@
  * 		background: @include mangui-shade(#F00, 25%);
  */
 
-@function mangui-shade($colour, $percentage) {
+@function mf-shade($colour, $percentage) {
 	@return mix($colour, black, (100-$percentage));
 }

@@ -44,7 +44,7 @@
  * 		}
  */
 
-@mixin mangui-placeholder () {
+@mixin mf-placeholder () {
 	&::-webkit-input-placeholder {
 		@content;
 	}
