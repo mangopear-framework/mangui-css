@@ -4,13 +4,13 @@
  * To enable your website to scale properly when a user zooms using their browser, em and rem
  * based units should be used. Rem based units are better from a design point of view as they
  * are relative to the body of the document and not to parent elements - like ems are.
- * 
- * @package  	mangui
- * @category	styles
- * @version  	1.0.0.alpha.2
- * @since   	1.0.0.alpha.2
+ *
+ * @package  	mangopear-framework
+ * @category	tools
+ * @version  	0.1.0.alpha
+ * @since   	0.1.0.alpha
  * @author  	Andi North <andi@mangopear.co.uk>
- * @link 		https://mangopear.co.uk/mangui/
+ * @link 		https://ui.mangopear.co.uk/
  * @license   	GNU General Public License <http://opensource.org/licenses/gpl-license.php>
  */
 
@@ -46,11 +46,11 @@ $rem-base-font-size: $mangui-base-font-size--unitless !default;
 
 /**
  * [2]	Helper mixin
- * 
+ *
  * 		The main mixin relies on a function to parse the integer from a value with a unit
  */
 
-@function parseInt ($n) {
+@function mf-parseint ($n) {
 	@return $n / ($n * 0 + 1);
 }
 
@@ -72,30 +72,30 @@ $rem-base-font-size: $mangui-base-font-size--unitless !default;
  *   	@include rempx(font-size, 16px);
  */
 
-@mixin rempx ($property, $values) {
+@mixin mf-rempx ($property, $values) {
 	$px:  (); 																	// [a]
 	$rem: (); 																	// [a]
 
 
 	@each $value in $values {													// [b]
 		@if $value == 0 or $value == auto {										// [c]
-			$px:	append($px,  $value);										// [c]
+			$px:	append($px, $value);										// [c]
 			$rem:	append($rem, $value);										// [c]
 		}
 
 
 		@else {
 			$unit: unit($value);												// [d]
-			$val: parseInt($value);												// [d]
+			$val: parseint($value);												// [d]
 
 
-			@if $unit == "px" {													// [e]
+			@if $unit == 'px' {													// [e]
 				$px:	append($px, $value);									// [e]
 				$rem:	append($rem, ($val / $rem-base-font-size * 1rem));		// [e]
 			}
 
 
-			@if $unit == "rem" {												// [e]
+			@if $unit == 'rem' {												// [e]
 				$px:	append($px, ($val * $rem-base-font-size * 1px));		// [e]
 				$rem:	append($rem, $value);									// [e]
 			}
@@ -103,6 +103,7 @@ $rem-base-font-size: $mangui-base-font-size--unitless !default;
 	}
 
 
+	/* stylelint-disable declaration-empty-line-before */
 	#{$property}: $px; 															// [f]
-	#{$property}: $rem; 														// [f]
+	#{$property}: $rem; 														// [f] /* stylelint-enable */
 }
