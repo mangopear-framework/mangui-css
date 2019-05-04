@@ -21,7 +21,6 @@
     "bemit",
     "oocss"
   ],
-  "main": "mangopear-framework.scss",
   "dependencies": {
     "sass-mq": "^5.0.0"
   },
