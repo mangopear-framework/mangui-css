@@ -1,6 +1,6 @@
 {
-  "name": "Mangopear framework: core-css",
-  "version": "0.1.0.alpha",
+  "name": "mangopear-framework--core-css",
+  "version": "0.1.0",
   "description": "The base level CSS/SASS for the framework.",
   "author": "Andi North <andi@mangopear.co.uk>",
   "license": "GPL-3.0",
@@ -15,17 +15,22 @@
   "keywords": [
     "sass",
     "scss",
-    "css"
+    "css",
     "itcss",
     "bem",
     "bemit",
-    "oocss",
+    "oocss"
   ],
-  "main": "mangui.scss",
   "dependencies": {
-
+    "sass-mq": "^5.0.0"
   },
   "devDependencies": {
-    
+    "glob": "^7.1.3",
+    "node-sass": "^4.12.0",
+    "stylelint": "^10.0.1",
+    "stylelint-scss": "^3.6.1"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/stylelint \"**/*.scss\" --syntax scss"
   }
 }
