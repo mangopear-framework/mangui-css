@@ -10,8 +10,8 @@
   ],
   "rules": {
     "scss/at-extend-no-missing-placeholder": true,
-    "scss/at-function-pattern": "inuit-.+",
-    "scss/at-mixin-pattern": "inuit-.+",
+    "scss/at-function-pattern": "mf-.+",
+    "scss/at-mixin-pattern": "mf-.+",
     "scss/dollar-variable-colon-space-before": "never",
     "scss/partial-no-import": true,
     "scss/selector-no-redundant-nesting-selector": true,
@@ -66,7 +66,7 @@
     "declaration-colon-space-after": "always",
     "declaration-colon-space-before": "never",
 
-    "declaration-empty-line-before": "never",
+    "declaration-empty-line-before": [ "never", { ignore: ["first-nested"] } ],
 
 
     "font-family-name-quotes": "always-where-required",
