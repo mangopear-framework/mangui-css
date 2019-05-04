@@ -121,7 +121,6 @@
     "no-empty-first-line": true,
     "no-eol-whitespace": true,
     "no-extra-semicolons": true,
-    "no-missing-end-of-source-newline": true,
     "no-unknown-animations": true,
 
 
@@ -168,7 +167,7 @@
 
 
     "string-no-newline": true,
-    "string-quotes": "double",
+    "string-quotes": "single",
 
 
     "unit-case": "lower",
