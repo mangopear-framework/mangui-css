@@ -100,13 +100,13 @@
  *   •	Last layer we see type selectors [e.g. `blockquote {}` or `a {}`]
  */
 
-@import "base/elements.mangui.headings";
 @import "base/elements.mangui.images";
 @import "base/elements.mangui.quotes";
 @import "base/elements.mangui.tables";
 @import "sass/base/elements.mangui.page";
 @import "sass/base/elements.mangui.links";
 @import "sass/base/elements.mangui.lists";
+@import "sass/base/elements.mangui.headings";
 
 
 
