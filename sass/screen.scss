@@ -119,8 +119,11 @@
  *   • 	Agnostically named [e.g. `.o-list {}`]
  */
 
-@import "objects/objects.mangui.panel";
-@import "objects/objects.mangui.navigation";
-@import "objects/objects.mangui.dialog";
-@import "objects/objects.mangui.media";
-@import "objects/objects.mangui.carousel";@import "sass/objects/objects.mangui.grid";@import "sass/objects/objects.mangui.grid";@import "sass/objects/objects.mangui.container";
+@import "sass/objects/objects.mangui.grid";
+@import "sass/objects/objects.mangui.grid.sizes";
+@import "sass/objects/objects.mangui.container";
+@import "sass/objects/objects.mangui.panel";
+@import "sass/objects/objects.mangui.navigation";
+@import "sass/objects/objects.mangui.dialog";
+@import "sass/objects/objects.mangui.media";
+@import "sass/objects/objects.mangui.carousel";
