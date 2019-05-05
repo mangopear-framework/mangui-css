@@ -1,0 +1,41 @@
+/**
+ * [Base] Default heading styles
+ *
+ * Base styles are the default styles for elements.
+ * **No class selectors allowed**
+ *
+ * @package  	mangopear-framework
+ * @category	base
+ * @version  	0.1.0.alpha
+ * @since   	0.1.0.alpha
+ * @author  	Andi North <andi@mangopear.co.uk>
+ * @link 		https://ui.mangopear.co.uk/
+ * @license   	GNU General Public License <http://opensource.org/licenses/gpl-license.php>
+ */
+
+
+/**
+ * CHANGELOG
+ *
+ * 0.1.0.alpha
+ *          Init file
+ */
+
+
+/**
+ * CONTENTS
+ *
+ * [1]  Headings
+ */
+
+
+/**
+ * [1]  Headings
+ */
+
+h1 { font-size: $size--heading-1; }
+h2 { font-size: $size--heading-2; }
+h3 { font-size: $size--heading-3; }
+h4 { font-size: $size--heading-4; }
+h5 { font-size: $size--heading-5; }
+h6 { font-size: $size--heading-6; }

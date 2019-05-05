@@ -1,0 +1,50 @@
+/**
+ * [Tools] Shared styling
+ *
+ * Default spacing for elements that share common vertical rhythm.
+ *
+ * @package  	mangopear-framework
+ * @category	generic
+ * @version  	0.1.0.alpha
+ * @since   	0.1.0.alpha
+ * @author  	Andi North <andi@mangopear.co.uk>
+ * @link 		https://ui.mangopear.co.uk/
+ * @license   	GNU General Public License <http://opensource.org/licenses/gpl-license.php>
+ */
+
+
+/**
+ * CHANGELOG
+ *
+ * 0.1.0.alpha
+ *          Init file
+ */
+
+
+/**
+ * CONTENTS
+ *
+ * [1]  Margins
+ */
+
+
+/**
+ * [1] Margins
+ */
+
+address,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, ol, ul,
+figure,
+hr,
+table,
+fieldset {
+    margin-bottom: $mangui-gutter;
+}
+
+
+ul, ol,
+dd {
+    margin-left: $mangui-gutter;
+}

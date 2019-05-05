@@ -1,12 +1,12 @@
 /**
- * Core MangUI stylesheet
+ * Core Mangopear framework stylesheet
  *
  * This stylesheet, by default, contains all of the styles for this WordPress theme. This document
- * as it ships with MangUI only includes the MangUI framework files and you should add your files
- * alongside - simply @import them along with the MangUI files.
+ * as it ships with Mangopear framework only includes the Mangopear framework files and you should add your files
+ * alongside - simply @import them along with the Mangopear framework files.
  * 
  * @package  	mangopear-framework
- * @category	styles
+ * @category	core-css
  * @version  	0.1.0.alpha
  * @since   	0.1.0.alpha
  * @author  	Andi North <andi@mangopear.co.uk>
@@ -40,9 +40,6 @@
  *   •	Globally available settings and variables
  *   •	Configure switches
  *   •	Brand colours
- *
- * 		$color-ui:		#BADA55;
- * 	 	$spacing-unit:	10px;
  */
 
 @import "settings/settings.mangui.defaults";
@@ -82,19 +79,14 @@
  *   •	Ground zero styles
  *   •	Low-specificity, far-reaching
  *   •	Resets; normalize.css; etc...
- *
- *   	* {
- *   		-webkit-box-sizing: inherit;
- *   		   -moz-box-sizing: inherit;
- *   		        box-sizing: inherit;
- *   	}
  */
 
-@import "generic/generic.mangui.normalize";
-@import "generic/generic.mangui.box-sizing";
-@import "generic/generic.mangui.shared";
-@import "generic/generic.mangui.clearfix";
-@import "generic/generic.mangui.invisible";
+@import "sass/generic/generic.normalize";
+@import "sass/generic/generic.reset";
+@import "sass/generic/generic.box-sizing";
+@import "sass/generic/generic.shared";
+@import "sass/generic/generic.clearfix";
+@import "sass/generic/generic.invisible";
 
 
 
@@ -106,19 +98,12 @@
  *   •	Unclasses HTML elements
  *   •	h1 - h6; basic links; lists; etc
  *   •	Last layer we see type selectors [e.g. `blockquote {}` or `a {}`]
- *
- *   	ul {
- *   		list-style: square outside;
- *   	}
  */
 
-@import "base/elements.mangui.page";
-@import "base/elements.mangui.links";
-@import "base/elements.mangui.lists";
-@import "base/elements.mangui.headings";
-@import "base/elements.mangui.images";
-@import "base/elements.mangui.quotes";
-@import "base/elements.mangui.tables";
+@import "sass/base/elements.page";
+@import "sass/base/elements.headings";
+@import "sass/base/elements.images";
+@import "sass/base/elements.tables";
 
 
 
@@ -132,24 +117,22 @@
  *   •	No cosmetics
  *   • 	Begin using classes, exclusively
  *   • 	Agnostically named [e.g. `.o-list {}`]
- *
- *   	.ui-list {
- *   		margin: 0;
- *   		padding: 0;
- *   		list-style: none;
- *   	}
- *
- *
- * 			.ui-list__item {
- * 		 		padding: $spacing-unit;
- * 		  	}
  */
 
-@import "objects/objects.mangui.grid";
-@import "objects/objects.mangui.grid.sizes";
-@import "objects/objects.mangui.container";
-@import "objects/objects.mangui.panel";
-@import "objects/objects.mangui.navigation";
-@import "objects/objects.mangui.dialog";
-@import "objects/objects.mangui.media";
-@import "objects/objects.mangui.carousel";
+@import "sass/objects/objects.grid";
+@import "sass/objects/objects.container";
+@import "sass/objects/objects.navigation";
+
+
+
+
+
+/**
+ * [6]	Utilities
+ *
+ *   •	Overrides; helpers; utilities
+ *   •	Only affect one piece of the DOM at any time
+ *   •	Usually carry `!important`
+ */
+
+@import "sass/utilities/utilities.grid-sizes";

@@ -1,0 +1,46 @@
+/**
+ * [Base] Default image styles
+ *
+ * Base styles are the default styles for elements.
+ * **No class selectors allowed**
+ *
+ * @package  	mangopear-framework
+ * @category	base
+ * @version  	0.1.0.alpha
+ * @since   	0.1.0.alpha
+ * @author  	Andi North <andi@mangopear.co.uk>
+ * @link 		https://ui.mangopear.co.uk/
+ * @license   	GNU General Public License <http://opensource.org/licenses/gpl-license.php>
+ */
+
+
+/**
+ * CHANGELOG
+ *
+ * 0.1.0.alpha
+ *          Init file
+ */
+
+
+/**
+ * CONTENTS
+ *
+ * [1]  Images
+ */
+
+
+/**
+ * [1]  Images
+ *
+ * 		[a]	Fluid images for responsive purposes.
+ * 		[b]	Offset `alt` text from surrounding copy.
+ * 		[c]	Setting `vertical-align` removes the whitespace that appears under 
+ * 			`img` elements when they are dropped into a page as-is. Safer 
+ * 			alternative to using `display: block;`.
+ */
+
+img {
+    max-width: 100%;				// [a]
+    font-style: italic;				// [b]
+    vertical-align: middle;			// [c]
+}

@@ -4,15 +4,16 @@
  * Box sizing is how a browser calculates the width of elements - two options are available:
  * content-box and border-box.
  *
- * For MangUI to work correctly, we need to use border-box as this option includes all margin,
- * padding and borders when calculating widths - a requirement for our grid system.
+ * For the Mangopear framework to work correctly, we need to use border-box as this option 
+ * includes all margin, padding and borders when calculating widths - a requirement for 
+ * our grid system.
  *
- * @package     mangui
- * @category    styles
- * @version     1.0.0.alpha.3
- * @since       1.0.0.alpha.3
+ * @package     mangopear-framework
+ * @category    generic
+ * @version     0.1.0.alpha
+ * @since       0.1.0.alpha
  * @author      Andi North <andi@mangopear.co.uk>
- * @link        https://mangopear.co.uk/mangui/
+ * @link        https://ui.mangopear.co.uk/
  * @license     GNU General Public License <http://opensource.org/licenses/gpl-license.php>
  */
 
@@ -20,7 +21,7 @@
 /**
  * CHANGELOG
  *
- * 1.0.0.alpha.3
+ * 0.1.0.alpha
  *          Init file
  */
 
