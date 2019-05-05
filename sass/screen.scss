@@ -100,10 +100,10 @@
  *   •	Last layer we see type selectors [e.g. `blockquote {}` or `a {}`]
  */
 
-@import "sass/base/elements.mangui.page";
-@import "sass/base/elements.mangui.headings";
-@import "sass/base/elements.mangui.images";
-@import "sass/base/elements.mangui.tables";
+@import "sass/base/elements.page";
+@import "sass/base/elements.headings";
+@import "sass/base/elements.images";
+@import "sass/base/elements.tables";
 
 
 
@@ -119,9 +119,10 @@
  *   • 	Agnostically named [e.g. `.o-list {}`]
  */
 
-@import "sass/objects/objects.mangui.grid";
-@import "sass/objects/objects.mangui.container";
-@import "sass/objects/objects.mangui.navigation";
+@import "sass/objects/objects.grid";
+@import "sass/objects/objects.container";
+@import "sass/objects/objects.navigation";
+
 
 
 
