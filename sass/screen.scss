@@ -1,12 +1,12 @@
 /**
- * Core MangUI stylesheet
+ * Core Mangopear framework stylesheet
  *
  * This stylesheet, by default, contains all of the styles for this WordPress theme. This document
- * as it ships with MangUI only includes the MangUI framework files and you should add your files
- * alongside - simply @import them along with the MangUI files.
+ * as it ships with Mangopear framework only includes the Mangopear framework files and you should add your files
+ * alongside - simply @import them along with the Mangopear framework files.
  * 
  * @package  	mangopear-framework
- * @category	styles
+ * @category	core-css
  * @version  	0.1.0.alpha
  * @since   	0.1.0.alpha
  * @author  	Andi North <andi@mangopear.co.uk>
@@ -40,9 +40,6 @@
  *   •	Globally available settings and variables
  *   •	Configure switches
  *   •	Brand colours
- *
- * 		$color-ui:		#BADA55;
- * 	 	$spacing-unit:	10px;
  */
 
 @import "settings/settings.mangui.defaults";
@@ -86,6 +83,7 @@
 
 @import "sass/generic/generic.normalize";
 @import "sass/generic/generic.reset";
+@import "sass/generic/generic.box-sizing";
 @import "sass/generic/generic.shared";
 @import "sass/generic/generic.clearfix";
 @import "sass/generic/generic.invisible";
@@ -100,10 +98,6 @@
  *   •	Unclasses HTML elements
  *   •	h1 - h6; basic links; lists; etc
  *   •	Last layer we see type selectors [e.g. `blockquote {}` or `a {}`]
- *
- *   	ul {
- *   		list-style: square outside;
- *   	}
  */
 
 @import "base/elements.mangui.page";
@@ -126,17 +120,6 @@
  *   •	No cosmetics
  *   • 	Begin using classes, exclusively
  *   • 	Agnostically named [e.g. `.o-list {}`]
- *
- *   	.ui-list {
- *   		margin: 0;
- *   		padding: 0;
- *   		list-style: none;
- *   	}
- *
- *
- * 			.ui-list__item {
- * 		 		padding: $spacing-unit;
- * 		  	}
  */
 
 @import "objects/objects.mangui.grid";
