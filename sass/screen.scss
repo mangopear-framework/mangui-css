@@ -82,15 +82,8 @@
  *   •	Ground zero styles
  *   •	Low-specificity, far-reaching
  *   •	Resets; normalize.css; etc...
- *
- *   	* {
- *   		-webkit-box-sizing: inherit;
- *   		   -moz-box-sizing: inherit;
- *   		        box-sizing: inherit;
- *   	}
  */
 
-@import "generic/generic.mangui.box-sizing";
 @import "sass/generic/generic.normalize";
 @import "sass/generic/generic.reset";
 @import "sass/generic/generic.shared";
