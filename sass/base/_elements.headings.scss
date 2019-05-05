@@ -31,49 +31,11 @@
 
 /**
  * [1]  Headings
- *
- * 		[a]	Allow font colour to inherit
- * 		[b]	Assign default font weights
- * 		[c]	Assigned $variabled font-sizes
  */
 
-h1 {
-	color: inherit;					// [a]
-	font-weight: 700;				// [b]
-	font-size: $size--heading-1;	// [c]
-}
-
-
-h2 {
-	color: inherit;					// [a]
-	font-weight: 700;				// [b]
-	font-size: $size--heading-2;	// [c]
-}
-
-
-h3 {
-	color: inherit;					// [a]
-	font-weight: 500;				// [b]
-	font-size: $size--heading-3;	// [c]
-}
-
-
-h4 {
-	color: inherit;					// [a]
-	font-weight: 700;				// [b]
-	font-size: $size--heading-4;	// [c]
-}
-
-
-h5 {
-	color: inherit;					// [a]
-	font-weight: 700;				// [b]
-	font-size: $size--heading-5;	// [c]
-}
-
-
-h6 {
-	color: inherit;					// [a]
-	font-weight: 700;				// [b]
-	font-size: $size--heading-6;	// [c]
-}
+h1 { font-size: $size--heading-1; }
+h2 { font-size: $size--heading-2; }
+h3 { font-size: $size--heading-3; }
+h4 { font-size: $size--heading-4; }
+h5 { font-size: $size--heading-5; }
+h6 { font-size: $size--heading-6; }
