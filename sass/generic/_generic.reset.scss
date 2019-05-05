@@ -1,0 +1,87 @@
+/**
+ * [Generic] Reset
+ *
+ * A very simple reset that sits on top of Normalize.css.
+ *
+ * @package  	mangopear-framework
+ * @category	generic
+ * @version  	0.1.0.alpha
+ * @since   	0.1.0.alpha
+ * @author  	Andi North <andi@mangopear.co.uk>
+ * @link 		https://ui.mangopear.co.uk/
+ * @license   	GNU General Public License <http://opensource.org/licenses/gpl-license.php>
+ */
+
+
+/**
+ * CHANGELOG
+ *
+ * 0.1.0.alpha
+ *          Init file
+ */
+
+
+/**
+ * CONTENTS
+ *
+ * [1]	The simple reset
+ * [2]	Remove trailing margins from nested lists
+ * [3]	Remove default table spacing
+ * [4]	Reset Chrome and Firefox behaviour which sets a `min-width: min-content;` on fieldsets
+ */
+
+
+/**
+ * [1]	The simple reset
+ */
+
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+	margin:  0;
+	padding: 0;
+}
+
+
+
+
+
+/**
+ * [2]	Remove trailing margins from nested lists
+ */
+
+li > {
+	ol,	ul {
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+
+/**
+ * [3]	Remove default table spacing
+ */
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+
+
+
+
+/**
+ * [4]	Reset Chrome and Firefox behaviour which sets a `min-width: min-content;` on fieldsets
+ */
+
+fieldset {
+	border: 0;
+	min-width: 0;
+}
