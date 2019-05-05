@@ -120,6 +120,18 @@
  */
 
 @import "sass/objects/objects.mangui.grid";
-@import "sass/objects/objects.mangui.grid.sizes";
 @import "sass/objects/objects.mangui.container";
 @import "sass/objects/objects.mangui.navigation";
+
+
+
+
+/**
+ * [6]	Utilities
+ *
+ *   •	Overrides; helpers; utilities
+ *   •	Only affect one piece of the DOM at any time
+ *   •	Usually carry `!important`
+ */
+
+@import "sass/utilities/utilities.grid-sizes";
