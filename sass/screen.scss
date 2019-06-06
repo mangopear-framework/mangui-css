@@ -1,14 +1,10 @@
 /**
- * Core Mangopear framework stylesheet
- *
- * This stylesheet, by default, contains all of the styles for this WordPress theme. This document
- * as it ships with Mangopear framework only includes the Mangopear framework files and you should add your files
- * alongside - simply @import them along with the Mangopear framework files.
+ * Core Mangopear framework styles
  * 
  * @package  	mangopear-framework
  * @category	core-css
- * @version  	0.1.0.alpha
- * @since   	0.1.0.alpha
+ * @version  	0.2.0.alpha
+ * @since   	0.2.0.alpha
  * @author  	Andi North <andi@mangopear.co.uk>
  * @link 		https://ui.mangopear.co.uk/
  * @license   	GNU General Public License <http://opensource.org/licenses/gpl-license.php>
@@ -20,61 +16,41 @@
  *
  * 0.1.0.alpha
  *          Init file
+ *
+ * 0.2.0.alpha
+ * 			Switched tools and settings to use new seperate repo
  */
 
 
 /**
  * CONTENTS
  *
- * [1]	Settings
- * [2]	Tools
- * [3]	Generic
- * [4]	Base
- * [5]	Objects
+ * [1]	Settings & tools
+ * [2]	Generic
+ * [3]	Base
+ * [4]	Objects
+ * [5]	Utilities
  */
 
 
 /**
- * [1]	Settings
+ * [1]	Settings & tools
  *
  *   •	Globally available settings and variables
  *   •	Configure switches
  *   •	Brand colours
+ *
+ * 	[a]	Import SASS toolkit and settings
  */
 
-@import "settings/settings.mangui.defaults";
-@import "settings/settings.mangui.setup";
-
-
-
-
-/**
- * [2]	Tools
- *
- *   •	Globally available tools
- *   •	Public mixins
- *   •	Helper functions
- *
- *   	[a]	SASS mixin: rempx
- *   		Converts pixel based values to rem values
- * 		[b]	SASS mixin: placeholder
- * 			Outputs browser variants of `:-x-placeholder`
- * 		[c]	SASS mixin: shade-tint
- * 			Apply a shade or tint to a colour
- * 		[d]	Include sass-mq
- */
-
-@import "sass/tools/tools.rempx";					// [a]
-@import "sass/tools/tools.placeholder";				// [b]
-@import "sass/tools/tools.shade-tint";				// [c]
-@import "node_modules/sass-mq/mq";					// [d]
+@import "node_modules/@mangopear-framework/sass-toolkit/sass/toolkit";			// [a]
 
 
 
 
 
 /**
- * [3]	Generic
+ * [2]	Generic
  *
  *   •	Ground zero styles
  *   •	Low-specificity, far-reaching
@@ -93,7 +69,7 @@
 
 
 /**
- * [4]	Base
+ * [3]	Base
  *
  *   •	Unclasses HTML elements
  *   •	h1 - h6; basic links; lists; etc
@@ -110,7 +86,7 @@
 
 
 /**
- * [5]	Objects
+ * [4]	Objects
  *
  *   •	OOCSS
  *   •	Design patterns
@@ -128,7 +104,7 @@
 
 
 /**
- * [6]	Utilities
+ * [5]	Utilities
  *
  *   •	Overrides; helpers; utilities
  *   •	Only affect one piece of the DOM at any time
