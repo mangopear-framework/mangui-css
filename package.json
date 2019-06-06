@@ -6,7 +6,7 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mangopear-framework/core-css"
+    "url": "git+https://github.com/mangopear-framework/core-css.git"
   },
   "bugs": {
     "url": "https://github.com/mangopear-framework/core-css/issues"
@@ -31,6 +31,6 @@
     "stylelint-scss": "^3.6.1"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/stylelint \"**/*.scss\" --syntax scss"
+    "lint": "stylelint \"**/*.scss\" --syntax scss"
   }
 }
