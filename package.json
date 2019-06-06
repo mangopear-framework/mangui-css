@@ -23,7 +23,8 @@
   ],
   "main": "sass/screen.scss",
   "dependencies": {
-    "sass-mq": "^5.0.0"
+    "sass-mq": "^5.0.0",
+    "@mangopear-framework/sass-toolkit": "^0.1.0"
   },
   "devDependencies": {
     "glob": "^7.1.3",
