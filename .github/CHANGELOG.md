@@ -21,3 +21,15 @@
 
 * [Tooling] Moved SASS tools to seperate repo. See [`sass-toolkit`](https://github.com/mangopear-framework/sass-toolkit) for more info.
 * [Settings] Moved SASS settings to seperate repo. See [`sass-toolkit`](https://github.com/mangopear-framework/sass-toolkit) for more info.
+
+
+
+
+
+## Version v0.2.1.alpha
+
+* Release date: **6th June 2019**
+
+### Security
+
+* Fixed vulnerability with `fstream` package.
