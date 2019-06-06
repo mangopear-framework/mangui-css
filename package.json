@@ -21,6 +21,7 @@
     "bemit",
     "oocss"
   ],
+  "main": "sass/screen.scss",
   "dependencies": {
     "sass-mq": "^5.0.0"
   },
