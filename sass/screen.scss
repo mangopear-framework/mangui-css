@@ -3,8 +3,8 @@
  * 
  * @package  	mangopear-framework
  * @category	core-css
- * @version  	0.2.0.alpha
- * @since   	0.2.0.alpha
+ * @version  	0.3.0.alpha
+ * @since   	0.1.0.alpha
  * @author  	Andi North <andi@mangopear.co.uk>
  * @link 		https://ui.mangopear.co.uk/
  * @license   	GNU General Public License <http://opensource.org/licenses/gpl-license.php>
@@ -19,6 +19,9 @@
  *
  * 0.2.0.alpha
  * 			Switched tools and settings to use new seperate repo
+ *
+ * 0.3.0.alpha
+ * 			Fixed bugs with paths
  */
 
 
@@ -43,7 +46,7 @@
  * 	[a]	Import SASS toolkit and settings
  */
 
-@import "node_modules/@mangopear-framework/sass-toolkit/sass/toolkit";			// [a]
+@import "../../../@mangopear-framework/sass-toolkit/sass/toolkit";			// [a]
 
 
 
@@ -57,12 +60,12 @@
  *   •	Resets; normalize.css; etc...
  */
 
-@import "sass/generic/generic.normalize";
-@import "sass/generic/generic.reset";
-@import "sass/generic/generic.box-sizing";
-@import "sass/generic/generic.shared";
-@import "sass/generic/generic.clearfix";
-@import "sass/generic/generic.invisible";
+@import "generic/generic.normalize";
+@import "generic/generic.reset";
+@import "generic/generic.box-sizing";
+@import "generic/generic.shared";
+@import "generic/generic.clearfix";
+@import "generic/generic.invisible";
 
 
 
@@ -76,10 +79,10 @@
  *   •	Last layer we see type selectors [e.g. `blockquote {}` or `a {}`]
  */
 
-@import "sass/base/elements.page";
-@import "sass/base/elements.headings";
-@import "sass/base/elements.images";
-@import "sass/base/elements.tables";
+@import "base/elements.page";
+@import "base/elements.headings";
+@import "base/elements.images";
+@import "base/elements.tables";
 
 
 
@@ -95,9 +98,9 @@
  *   • 	Agnostically named [e.g. `.o-list {}`]
  */
 
-@import "sass/objects/objects.grid";
-@import "sass/objects/objects.container";
-@import "sass/objects/objects.navigation";
+@import "objects/objects.grid";
+@import "objects/objects.container";
+@import "objects/objects.navigation";
 
 
 
@@ -111,4 +114,4 @@
  *   •	Usually carry `!important`
  */
 
-@import "sass/utilities/utilities.grid-sizes";
+@import "utilities/utilities.grid-sizes";
