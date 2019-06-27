@@ -33,3 +33,15 @@
 ### Security
 
 * Fixed vulnerability with `fstream` package.
+
+
+
+
+
+## Version v0.3.1
+
+* Release date: **27th June 2019**
+
+### Accessibility
+
+* Fixed issue with sub navigations not being revealed on `:focus-within`
