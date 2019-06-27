@@ -45,3 +45,15 @@
 ### Accessibility
 
 * Fixed issue with sub navigations not being revealed on `:focus-within`
+
+
+
+
+
+## Version v0.3.2
+
+* Release date: **27th June 2019**
+
+### Bug
+
+* Fixed code error with v0.3.1
