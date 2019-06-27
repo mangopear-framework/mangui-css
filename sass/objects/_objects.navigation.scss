@@ -129,7 +129,8 @@
 
 .o-nav__item--has-sub {
 	&:hover,
-	&:focus {
+	&:focus,
+	&:focus:within {
 		.o-nav__list--sub {
 			left: 0; 												// [a]
 			opacity: 1; 											// [b]
