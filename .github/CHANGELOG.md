@@ -57,3 +57,15 @@
 ### Bug
 
 * Fixed code error with v0.3.1
+
+
+
+
+
+## Version v0.3.3
+
+* Release date: **4th March 2020**
+
+### Bug
+
+* Fix issue with sub navigations not showing on old browsers due to the "focus-within" selector not being recognised.
